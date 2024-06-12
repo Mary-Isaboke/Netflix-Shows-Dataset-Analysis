@@ -31,16 +31,14 @@ ORDER BY show_count DESC;`
    - Query: `SELECT type, AVG(duration) AS average_duration
 FROM Netflix_Tittle
 GROUP BY type;`
-   - ![Bar Chart]
-   - <img src="">
+   - ![Bar Chart]()
 
 3. **Content Production by Country**:
    - Query: `SELECT country, COUNT(*) AS show_count
 FROM Netflix_Tittle
 GROUP BY country
 ORDER BY show_count DESC;`
-  - ![Pie Chart]
-  - <img src="">
+  - ![Pie Chart](<a href="https://ibb.co/pWYNr3F"><img src="https://i.ibb.co/N1cfnLB/genre.png" alt="genre" border="0" /></a>)
 
 ## Questions and SQL Queries
 1. **Top 5 Highest-Rated Shows**:
