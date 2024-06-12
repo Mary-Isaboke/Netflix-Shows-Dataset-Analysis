@@ -25,9 +25,8 @@ This project analyzes the Netflix Shows dataset to uncover interesting insights 
 FROM Netflix_Tittle
 GROUP BY listed_in
 ORDER BY show_count DESC;`
-   - ![Bar Chart]
-   - <img src="https://ibb.co/pWYNr3F">
-
+   - ![Bar Chart](https://ibb.co/pWYNr3F)
+     
 2. **Average Duration of Netflix Shows**:
    - Query: `SELECT type, AVG(duration) AS average_duration
 FROM Netflix_Tittle
