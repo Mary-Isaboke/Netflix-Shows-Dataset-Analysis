@@ -25,20 +25,23 @@ This project analyzes the Netflix Shows dataset to uncover interesting insights 
 FROM Netflix_Tittle
 GROUP BY listed_in
 ORDER BY show_count DESC;`
-   - ![Bar Chart](https://ibb.co/pWYNr3F)
+   - ![Bar Chart]
+   - (<a href="https://ibb.co/pWYNr3F"><img src="https://i.ibb.co/N1cfnLB/genre.png" alt="genre" border="0" /></a>)
      
 2. **Average Duration of Netflix Shows**:
    - Query: `SELECT type, AVG(duration) AS average_duration
 FROM Netflix_Tittle
 GROUP BY type;`
-   - ![Bar Chart]()
+   - ![Bar Chart]
+   - (<a href="https://imgbb.com/"><img src="https://i.ibb.co/J2R7ncV/avd.png" alt="avd" border="0" /></a>)
 
 3. **Content Production by Country**:
    - Query: `SELECT country, COUNT(*) AS show_count
 FROM Netflix_Tittle
 GROUP BY country
 ORDER BY show_count DESC;`
-  - ![Pie Chart](<a href="https://ibb.co/pWYNr3F"><img src="https://i.ibb.co/N1cfnLB/genre.png" alt="genre" border="0" /></a>)
+  - ![Pie Chart]
+  - (<a href="https://ibb.co/RYz9cJN"><img src="https://i.ibb.co/gmz3Jcd/pie.png" alt="pie" border="0" /></a>)
 
 ## Questions and SQL Queries
 1. **Top 5 Highest-Rated Shows**:
