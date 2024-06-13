@@ -55,10 +55,6 @@ ORDER BY show_count DESC;`
 ## Conclusion
 This analysis provides valuable insights into Netflix's content strategy and its global reach.
 
-## Files in this Repository
-- `sql_queries.sql`: Contains all the SQL queries used for analysis.
-- `presentation.pptx`: The pitch deck presentation.
-- `README.md`: This document.
 
 
 
