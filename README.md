@@ -17,15 +17,15 @@ This project analyzes the Netflix Shows dataset to uncover interesting insights 
 -Step 5: Verified the imported data by running a simple SELECT query.
 
 ## Interesting Observation
-**Genre Diversity:**
+ - **Genre Diversity:**
 The dataset includes a wide range of genres such as Drama, Comedy, Documentary, Horror, and more.
 Reflects Netflix's diverse content offerings aimed at different audience preferences.
 
-**Global Representation:**
+ - **Global Representation:**
 The dataset features shows from numerous countries, showcasing Netflix's global reach.
 Highlights Netflix's strategy to cater to international markets with localized content.
 
-**Initial Interesting Findings:**
+- **Initial Interesting Findings:**
 Significant number of entries from the USA, India, and the UK.
 Notable representation from non-English speaking countries, indicating a strong push for international content.
 
