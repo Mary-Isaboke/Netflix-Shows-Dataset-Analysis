@@ -9,11 +9,23 @@ This project analyzes the Netflix Shows dataset to uncover interesting insights 
 - **Goals**:  To Analyze the dataset and find interesting patterns and insights, including popular genres, average show durations, and content production by country.
 
 ## Import Process
-- Import Method: The dataset was imported into MySQL Workbench using the CSV import functionality.
+- Import Method:
+- Step 1: Downloaded the Netflix Shows dataset in CSV format.
+-Step 2: Opened MySQL Workbench and connected to the database.
+-Step 3: Used the "Table Data Import Wizard" to import the CSV file.
+-Step 4: Mapped the CSV columns to the database table columns.
+-Step 5: Verified the imported data by running a simple SELECT query.
 
 ## Interesting Observation
-- **Genre Diversity**:
-- The dataset includes a diverse range of genres and a significant number of entries from various countries.
+**Genre Diversity:**
+The dataset includes a wide range of genres such as Drama, Comedy, Documentary, Horror, and more.
+Reflects Netflix's diverse content offerings aimed at different audience preferences.
+**Global Representation:**
+The dataset features shows from numerous countries, showcasing Netflix's global reach.
+Highlights Netflix's strategy to cater to international markets with localized content.
+**Initial Interesting Findings:**
+Significant number of entries from the USA, India, and the UK.
+Notable representation from non-English speaking countries, indicating a strong push for international content.
 
 ## Difficulties Encountered:
 -Some fields contained inconsistent data formats (e.g., duration times were in mixed units).
